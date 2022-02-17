@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.social_buttons {
+  width: 750px;
+  height: 150px;
+  background-color: #83867a;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+}
+
+.social_buttons_in_box {
+  background-color: #83867a;
+  padding: 25px;
+  width: 20%;
+  height: 100%;
+  float: left;
+  border-radius: 5px;
+}
+
+.social_box {
+  width: 100px;
+  height: 100px;
+  background-color: #08beff;
+  border-radius: 5px;
+  box-shadow: 0px 12px 15px 1px rgba(14, 255, 249, 0.7);
+  transition: box-shadow 0.5s;
+  position: relative;
+}
+
+.social_box:hover {
+  box-shadow: 0px -12px 15px 1px rgba(14, 255, 249, 0.7);
+}
+
+.social_box i {
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
